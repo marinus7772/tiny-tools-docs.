@@ -42,6 +42,8 @@
 git clone https://github.com/marinus7772/tiny-tools-docs.git
 cd tiny-tools-docs
 
+### 2. Создание виртуального окружения
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -50,12 +52,19 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
+### 3. Установка зависимостей
+```bash
 pip install -r requirements.txt
 
+
+## Быстрый старт
+### Пример 1: Генерация тестовых данных
+```bash
 python cli.py generate --group "ПКС-21" --students 25 --output group_pks21.json
 
-✅ Сгенерированы данные для группы 'ПКС-21' с 25 студентами
-📁 Данные сохранены в файл: group_pks21.json
+### Вывод:
+Сгенерированы данные для группы 'ПКС-21' с 25 студентами
+Данные сохранены в файл: group_pks21.json
 
 python cli.py stats --input group_pks21.json --format table
 
