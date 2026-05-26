@@ -41,3 +41,33 @@
 ```bash
 git clone https://github.com/marinus7772/tiny-tools-docs.git
 cd tiny-tools-docs
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python cli.py generate --group "ПКС-21" --students 25 --output group_pks21.json
+
+✅ Сгенерированы данные для группы 'ПКС-21' с 25 студентами
+📁 Данные сохранены в файл: group_pks21.json
+
+python cli.py stats --input group_pks21.json --format table
+
+==================================================
+📊 СТАТИСТИКА ПОСЕЩАЕМОСТИ
+==================================================
+Группа: ПКС-21
+Всего студентов: 25
+Всего отметок: 0
+--------------------------------------------------
+✅ Присутствовало: 0 (0.0%)
+❌ Отсутствовало: 0 (0.0%)
+==================================================
+
+
