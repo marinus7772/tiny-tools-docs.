@@ -1,9 +1,6 @@
 # tiny-tools-docs.
 # Attendance Tool
 
-╔═══════════════════════════════════════════════════════════════╗║ ATTENDANCE TOOL v1.0.0                                        ║║ Утилита командной строки для учета посещаемости               ║
-╚═══════════════════════════════════════════════════════════════╝
-
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
