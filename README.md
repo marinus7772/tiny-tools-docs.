@@ -41,6 +41,7 @@
 ```bash
 git clone https://github.com/marinus7772/tiny-tools-docs.git
 cd tiny-tools-docs
+```
 
 ### 2. Создание виртуального окружения
 ```bash
@@ -51,16 +52,19 @@ venv\Scripts\activate
 # Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ### 3. Установка зависимостей
 ```bash
 pip install -r requirements.txt
+```
 
 
 ## Быстрый старт
 ### Пример 1: Генерация тестовых данных
 ```bash
 python cli.py generate --group "ПКС-21" --students 25 --output group_pks21.json
+```
 
 ### Вывод:
 Сгенерированы данные для группы 'ПКС-21' с 25 студентами
